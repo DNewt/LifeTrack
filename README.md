@@ -28,3 +28,10 @@
 * Money - Unsure (Manual),
 * Vitamins - Manual
 
+
+#### Currently Setup: 
+
+* Travis: Travis.yml file set up for Golang, currently building new pushes. 
+* Docker: Currently sets up an instance with Golang and copies over the Main.go in binary form.
+* Amazon EC2 Instance: Setup with Docker running - this is being treated as my production environment. 
+* Docker Hub: Setup to allow for easy production updates.
