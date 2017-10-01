@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func placeHolder() {
+func placeHolder(w http.ResponseWriter, r *http.Request){
     fmt.Println("Hello Davids World")
 }
 
