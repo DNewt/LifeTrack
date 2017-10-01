@@ -4,7 +4,7 @@ WORKDIR /go/src/github.com/DNewt/LifeTrack
 
 COPY . .
 
-RUN GOOS=linux GOARCH=amd64 go build -v -i -o bin/linux/LifeTrack ./cmd
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -i -o bin/linux/LifeTrack ./cmd
 
 FROM scratch
 MAINTAINER David Newton <DavidWillNewton@gmail.com>
