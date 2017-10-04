@@ -12,3 +12,5 @@ MAINTAINER David Newton <DavidWillNewton@gmail.com>
 COPY --from=0 /go/src/github.com/DNewt/LifeTrack/bin/linux/LifeTrack .
 
 ENTRYPOINT ["./LifeTrack"]
+
+EXPOSE 8080
