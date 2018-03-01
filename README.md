@@ -13,6 +13,16 @@
 * React
 * Postgres
 
+### Security / Infrastructure (Maybe)
+* Microsoft Certificate Authority (MSCA) 
+* Veeam Backup and Replication
+
+### Logging
+* ELK Stack
+*    - Elasticsearch 
+*    - Logstash
+*    - Kibana
+
 ## Dashboard to track the following: 
 
 * Sleep - Using Fitbit API,
@@ -24,10 +34,11 @@
 * Workouts - Manual,
 * Reading - Manual,
 * Language - Using Duolingo API?,
-* Clothes - Manual,
-* Money - Unsure (Manual),
-* Vitamins - Manual
-
+* Vitamins - Manual,
+* Asset Management - Manual,
+* Budgeting - Manual,
+* Diet Record - Manual / Fitbit APi,
+* Password Storage - Manual
 
 #### Currently Setup: 
 
